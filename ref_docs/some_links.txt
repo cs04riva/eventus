@@ -1,0 +1,2 @@
+# good reference for adding relationships to models in RoR
+http://stackoverflow.com/questions/5784810/model-relations-in-ruby-on-rails
