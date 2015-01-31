@@ -1,16 +1,8 @@
-<nav class="clearfix">
- <ul class="clearfix">
-  
-
-  <li><%= link_to "Eventus", root_path %></li>
-  <span>Plan your next event:</span>
-  <li><%= link_to "Log In", 'login' %></li>
- </ul>
- <a href="#" id="pull">Menu</a>
-</nav>
-
-
-
-
-
-
+<div class="header">
+ <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+  <%= link_to "Eventus", root_path, :class => "pure-menu-heading" %>
+  <ul>
+   <li><%= link_to "Log In", 'login' %></li>
+  </ul>
+ </div>
+</div>
